@@ -11,6 +11,7 @@ function johnLennonFacts(facts){
   let result = 0;
   while(result < facts.length){
     console.log(facts + "!!!")
-   
+   result++
   }
+  return result;
 }
